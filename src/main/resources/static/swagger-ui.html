@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Custom Swagger UI</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.3.1/swagger-ui.css">
+</head>
+<body>
+    <div id="swagger-ui"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.3.1/swagger-ui-bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.3.1/swagger-ui-standalone-preset.js"></script>
+    <script>
+        window.onload = function() {
+            const ui = SwaggerUIBundle({
+                url: "http://localhost:8080/v3/api-docs",  // Update this line
+                dom_id: "#swagger-ui",
+                deepLinking: true,
+                presets: [SwaggerUIStandalonePreset],
+                plugins: [SwaggerUIBundle.plugins.DownloadUrl],
+            });
+        }
+    </script>
+</body>
+</html>
