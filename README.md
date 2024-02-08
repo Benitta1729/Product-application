@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # <h1>Product Demo Application</h1>
 This is a demo application for managing products. It provides CRUD (Create, Read, Update, Delete) operations for products along with the ability to add reviews and offers to products.
 
@@ -432,3 +433,6 @@ Content-Type: application/json
     "TotalPages": 1
 }
 ````
+=======
+# Product-application
+>>>>>>> 5ab3007bd047cbe3fa92adb976a1801be97b5bdb
