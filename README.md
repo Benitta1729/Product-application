@@ -156,7 +156,7 @@ Deletes a product by ID.
 Retrieves reviews for the specified product in a paginated format.
 
 ### HTTP Request and Response Examples:
-#### GET a single product
+#### GET-Fetch a single product
 
 ```` 
 Request:
@@ -195,7 +195,7 @@ Content-Type: application/json
     }
 } 
 ````
-### POST-Create a Product
+#### POST-Create a Product
 
 ````
 Request:
@@ -231,7 +231,7 @@ Content-Type: application/json
 }
 ````
 
-### PUT-Update a Product
+#### PUT-Update a Product
 
 ````
 Request:
@@ -261,7 +261,7 @@ Content-Type: application/json
        }
 }
 ````
-### DELETE-Delete a Product
+#### DELETE-Delete a Product
 
 ````
 Request:
@@ -299,7 +299,7 @@ Content-Type: application/json
     "discountedPrice": 749.99
 }
 ````
-### POST_Add a Review to a Product
+#### POST_Add a Review to a Product
 ````
 Request:
 
@@ -328,7 +328,7 @@ Content-Type: application/json
         }
 }
 ````
-### POST-Add an Offer to a Product
+#### POST-Add an Offer to a Product
 ````
 Request:
 
@@ -359,7 +359,7 @@ Content-Type: application/json
       }
 }
 ````
-### GET-Retrieve Product Summaries using pagination
+#### GET-Retrieve Product Summaries using pagination
 ````
 Request:
 
@@ -403,7 +403,7 @@ Content-Type: application/json
 }
 ````
 
-### GET-Retrieve Product Reviews using pagination
+#### GET-Retrieve Product Reviews using pagination
 
 ````
 Request:
@@ -433,6 +433,6 @@ Content-Type: application/json
     "TotalPages": 1
 }
 ````
-=======
-# Product-application
->>>>>>> 5ab3007bd047cbe3fa92adb976a1801be97b5bdb
+
+
+
