@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # <h1>Product Demo Application</h1>
 This is a demo application for managing products. It provides CRUD (Create, Read, Update, Delete) operations for products along with the ability to add reviews and offers to products.
 
